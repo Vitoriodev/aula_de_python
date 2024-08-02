@@ -122,4 +122,4 @@ while True:
     if sair is True:
         break
 
-print('você saiu da calculatora espero que voltel! ')
+print('você saiu da calculatora espero que volte! ')
