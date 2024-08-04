@@ -8,6 +8,9 @@ while True:
     
     metodo_de_calculo = input('qual o metodo vai querer usar para o seu calculo? ').lower()  
     
+    #teste para saber, ser o codigo vai ter os operadores aritmético e vai ter um operado aritmético.
+    if '+-*/' not in metodo_de_calculo:
+        print('coloque apenas operadores aritmético!')
     
     if len(metodo_de_calculo) > 1:
         print('\naconteceu um erro, coloque apenas um metodo de calculo!')
@@ -70,7 +73,7 @@ while True:
                 
                 print('aconteceu um erro, porfavor coloque apenas numeros!')
                 continue
-            
+
             print(f'o total da multiplicação entre o numero {mul_1} e {mul_2} e o resultado é {total}')
         
         if '3' in multiplicação:
@@ -86,7 +89,7 @@ while True:
                 
                 print('aconteceu um erro, porfavor coloque apenas numeros!')
                 continue
-            
+
             print(f'o total da multiplicação entre os numeros {mul_1}, {mul_2} e {mul_3} o resultado é {total}')
                       
                        
@@ -105,7 +108,7 @@ while True:
                 
                 print('aconteceu um erro, porfavor coloque apenas numeros!')
                 continue
-            
+
             print(f'o total da divisão entre o numero {divi_1} e {divi_2} e o resultado é {total}')
         
         if '3' in divisão:
@@ -121,7 +124,7 @@ while True:
                 
                 print('aconteceu um erro, porfavor coloque apenas numeros!')
                 continue
-            
+
             print(f'o total da divisão entre os numeros {divi_1}, {divi_2} e {divi_3} o resultado é {total}')
         
     if '-' in metodo_de_calculo:
@@ -139,7 +142,7 @@ while True:
                 
                 print('aconteceu um erro, porfavor coloque apenas numeros!')
                 continue
-            
+
             print(f'o total da subtração entre o numero {sub_1} e {sub_2} e o resultado é {total}')
         
         if '3' in subtração:
@@ -155,7 +158,7 @@ while True:
                 
                 print('aconteceu um erro, porfavor coloque apenas numeros!')
                 continue
-            
+
             print(f'o total da subtração entre os numeros {sub_1}, {sub_2} e {sub_3} o resultado é {total}')
     
     
