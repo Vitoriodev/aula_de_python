@@ -1,6 +1,7 @@
 while True:
     print("olá sejam ben-vindo")
     print("podemos fazer o seu cadrasto")
+    
     nome = input("qual o seu nome: ")
     email = input("qual vai ser o seu email: ")
     senhar = input("qual vai ser a sua senhar: ")
