@@ -1,5 +1,5 @@
 while True:
-    print("olá sejam ben-vindo")
+    print("ola sejam ben-vindo")
     print("podemos fazer o seu cadrasto")
     
     nome = input("qual o seu nome: ")
