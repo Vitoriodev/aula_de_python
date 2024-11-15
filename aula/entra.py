@@ -1,8 +1,8 @@
-from login import email
-from login import senhar
-from login import nome
+from aula.login import email
+from aula.login import senhar
+from aula.login import nome
 
-import login
+import aula.login as login
 
 while True: #verificação do email e a senhar.
     verificacao_1 = input("qual o seu email: ")
